@@ -1,0 +1,6 @@
+.board_container {
+  display: grid;
+  grid-template-columns: repeat(5, 55px);
+  grid-template-rows: repeat(6, 55px);
+  gap: 6px;
+}

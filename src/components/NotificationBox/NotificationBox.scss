@@ -1,0 +1,15 @@
+.notification_box_container {
+  position: absolute;
+  top: 20px;
+  display: flex;
+  justify-content: center;
+  color: black;
+  background: white;
+  border-radius: 6px;
+  padding: 1rem;
+  z-index: 5;
+
+  &__message {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  overflow: hidden;
+}
+
+a {
+  color: inherit;
+}
+
+.fade-enter {
+  opacity: 0;
+  transform: translateY(50px);
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 750ms ease-in, transform 750ms ease-in-out;
+}
+
+.fade-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 750ms ease-in, transform 750ms ease-in-out;
+}

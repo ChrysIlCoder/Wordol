@@ -1,0 +1,11 @@
+.page_layout_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 100vh;
+  gap: 8px;
+  text-align: center;
+  background-color: #121213;
+  color: white;
+}

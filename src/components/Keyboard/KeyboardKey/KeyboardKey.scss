@@ -1,0 +1,31 @@
+.key_container {
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  width: 100%;
+  max-width: 43px;
+  height: 58px;
+  margin-right: 6px;
+  border-radius: 4px;
+  background-color: #818384;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#big {
+  width: 100%;
+  max-width: 65px;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0 4px;
+}
+#disabled {
+  background-color: #3A3A3C;
+}
+#almost {
+  background-color: #b49f39;
+}
+#correct {
+  background-color: #528d4e;
+}

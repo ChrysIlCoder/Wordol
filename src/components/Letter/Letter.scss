@@ -1,0 +1,25 @@
+.letter_container {
+  height: 100%;
+  width: 100%;
+  border: 2px solid #3A3A3C;
+  font-size: 32px;
+  font-weight: 600;
+  display: grid;
+  place-items: center;
+  color: white;
+}
+
+#correct {
+  background-color: #528d4e;
+  border-color: #528d4e;
+}
+
+#almost {
+  background-color: #b49f39;
+  border-color: #b49f39;
+}
+
+#error {
+  background-color: #3a393c;
+  border-color: #3a393c;
+}
