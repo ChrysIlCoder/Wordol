@@ -69,7 +69,7 @@ export default function Keyboard() {
           {keys1.map((key, index) => (
             <KeyboardKey
               disabled={letters.disabled.includes(key)}
-              almost={letters.almost.includes(key)}
+              almost={letters.almost.includes(key) && !letters.correct.includes(key)}
               correct={letters.correct.includes(key)}
               key={index}
               key_val={key}
@@ -80,7 +80,7 @@ export default function Keyboard() {
           {keys2.map((key, index) => (
             <KeyboardKey
               disabled={letters.disabled.includes(key)}
-              almost={letters.almost.includes(key)}
+              almost={letters.almost.includes(key) && !letters.correct.includes(key)}
               correct={letters.correct.includes(key)}
               key={index}
               key_val={key}
@@ -92,7 +92,7 @@ export default function Keyboard() {
           {keys3.map((key, index) => (
             <KeyboardKey
               disabled={letters.disabled.includes(key)}
-              almost={letters.almost.includes(key)}
+              almost={letters.almost.includes(key) && !letters.correct.includes(key)}
               correct={letters.correct.includes(key)}
               key={index}
               key_val={key}
