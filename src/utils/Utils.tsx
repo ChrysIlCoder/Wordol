@@ -84,7 +84,7 @@ export default function getUtils() {
     await fetch(wordleBank)
       .then((res: Response) => res.text())
       .then((result: any) => {
-        const wordArray = result.split(" ");
+        const wordArray = result.split("\n");
         for (let word in wordArray) {
           wordArray[word] = wordArray[word].toUpperCase()
         }
